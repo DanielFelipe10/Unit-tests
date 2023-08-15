@@ -7,4 +7,11 @@
         <item>Descuento por pensión</item>
     </string-array>
 
+    <string-array name="operations">
+        <item>Suma</item>
+        <item>Resta</item>
+        <item>Multiplicación</item>
+        <item>División</item>
+    </string-array>
+
 </resources>

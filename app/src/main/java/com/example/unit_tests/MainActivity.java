@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
         calculadora.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intentSuma = new Intent(MainActivity.this, Salary.class);
+                Intent intentSuma = new Intent(MainActivity.this, Calculator.class);
                 startActivity(intentSuma);
             }
         });
