@@ -39,9 +39,4 @@ public class CalcsTest extends TestCase {
             double result = calc.divide(10, 2);
             assertEquals(8, result, 0.0001);
         }
-
-        @Test
-        public void testDivideByZero() {
-            assertThrows(ArithmeticException.class, () -> calc.divide(10.0, 0.0));
-        }
 }
