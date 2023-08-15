@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Unit-tests</string>
+
+    <string-array name="calculation_types">
+        <item>Salario diario</item>
+        <item>Descuento por salud</item>
+        <item>Descuento por pensión</item>
+    </string-array>
+
 </resources>

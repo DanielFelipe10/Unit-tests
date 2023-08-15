@@ -4,15 +4,65 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".Salary">
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:id="@+id/title"
+        android:layout_width="338dp"
+        android:layout_height="77dp"
+        android:text="SELECCIONE"
+        android:textAlignment="center"
+        android:textSize="17pt"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.807" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="342dp"
+        android:layout_height="370dp"
+        android:layout_marginBottom="180dp"
+        android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/calculator"
+            android:layout_width="323dp"
+            android:layout_height="83dp"
+            android:layout_margin="8dp"
+            android:backgroundTint="@color/black"
+            android:elevation="6dp"
+            android:text="Calculadora"
+            android:textColor="@color/white"
+            android:textSize="8pt" />
+
+        <Button
+            android:id="@+id/salary"
+            android:layout_width="323dp"
+            android:layout_height="83dp"
+            android:layout_margin="8dp"
+            android:backgroundTint="@color/black"
+            android:elevation="6dp"
+            android:text="Salario"
+            android:textColor="@color/white"
+            android:textSize="8pt" />
+
+        <Button
+            android:id="@+id/more"
+            android:layout_width="323dp"
+            android:layout_height="83dp"
+            android:layout_margin="8dp"
+            android:backgroundTint="@color/black"
+            android:elevation="6dp"
+            android:text="Más"
+            android:textColor="@color/white"
+            android:textSize="8pt" />
+    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
