@@ -29,7 +29,7 @@ public class SalaryCalculatorTest extends TestCase {
 
     @Test
     public void testCalculatePensionDiscount() {
-        double expected = 1000.0 * 0.07;
+        double expected = 1000.0 * 0.06;
         double result = calculator.calculatePensionDiscount();
         assertEquals(expected, result, 0.001);
     }

@@ -37,6 +37,6 @@ public class CalcsTest extends TestCase {
         @Test
         public void testDivide() {
             double result = calc.divide(10, 2);
-            assertEquals(8, result, 0.0001);
+            assertEquals(5, result, 0.0001);
         }
 }
